@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "moduleResolution": "Node",
+    "moduleResolution": "node",
     "experimentalDecorators": true,
+    "esModuleInterop": true,
     "paths": {
       "@dagger.io/dagger": ["./sdk"]
     }
